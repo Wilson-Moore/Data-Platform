@@ -78,23 +78,22 @@ def transform_monthly_targets() -> None:
 
     # 1) Clean Store_ID like: S1, Store_5 -> 1, 5 ...
     df = clean_id(df, "Store_ID")
-    df = normalize_number(df, ["Target_Revenue"])
 
     # 2) Clean Month (handles "Feb-2023", "Apr-2023", "2023-01-01 00:00:00", etc.)
     df = clean_date(df, "Month")
 
-    # 3) Clean Target_Revenue (remove commas like "3,517,913")
-    df["Target_Revenue"] = (
-        df["Target_Revenue"]
-        .astype(str)
-        .str.replace(",", "", regex=False)
-    )
-    df["Target_Revenue"] = pd.to_numeric(df["Target_Revenue"], errors="coerce")
+    # 3) Clean Target_Revenue (remove commas, spaces, etc.)
+    df = normalize_number(df, ["Target_Revenue"])
 
-    # 4) Standardize Manager_Name
+    # 4) Fill null Target_Revenue with the average of the same store
+    # (if a store has all NaNs, this will remain NaN)
+    df["Target_Revenue"] = df["Target_Revenue"].fillna(
+        df.groupby("Store_ID")["Target_Revenue"].transform("mean")
+    )
+    # 5) Standardize Manager_Name
     df = standarize_names(df, ["Manager_Name"])
 
-    # 5) Remove duplicates
+    # 6) Remove duplicates
     df = remove_duplicates(df)
 
     df.to_csv("staging/monthly_targets.csv", index=False)
@@ -233,8 +232,8 @@ def transform_table_stores() -> None:
 
     avg_targets = (
         targets.groupby("Store_ID", as_index=False)["Target_Revenue"]
-        .mean()
-        .rename(columns={"Target_Revenue": "Avg_Monthly_Target"})
+        .sum()
+        .rename(columns={"Target_Revenue": "Monthly_Target"})
     )
 
     # ---- merge avg target into stores ----

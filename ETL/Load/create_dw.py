@@ -34,7 +34,7 @@ def create_dw_schema() -> None:
         Store_Name         TEXT,
         City_Name          TEXT,
         Region             TEXT,
-        Avg_Monthly_Target REAL
+        Monthly_Target REAL
     );
 
     CREATE TABLE Dim_Customer (

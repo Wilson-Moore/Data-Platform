@@ -59,12 +59,12 @@ def load_dw_data() -> None:
         "Dim_Product", conn, if_exists="append", index=False
     )
 
-    store_cols = ["Store_ID","Store_Name","City_Name","Region","Avg_Monthly_Target"]
+    store_cols = ["Store_ID","Store_Name","City_Name","Region","Monthly_Target"]
     stores[[c for c in store_cols if c in stores.columns]].to_sql(
         "Dim_Store", conn, if_exists="append", index=False
     )
 
-    cust_cols = ["Customer_ID","Full_Name","City_Name","Region","Avg_Region_Shipping_Cost"]
+    cust_cols = ["Customer_ID","Full_Name","City_Name","Region","Region_Shipping_Cost"]
     customers[[c for c in cust_cols if c in customers.columns]].to_sql(
         "Dim_Customer", conn, if_exists="append", index=False
     )

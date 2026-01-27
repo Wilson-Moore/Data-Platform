@@ -15,7 +15,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 2,2023-02-01,7935744.0,Khadidja Talbi
 3,2023-02-01,4338861.0,Ryad Guellil
 4,2023-02-01,3722935.0,Walid Diaf
-5,2023-02-01,,Ryad Benali
+5,2023-02-01,3469147.580645161,Ryad Benali
 6,2023-02-01,2844291.0,Karim Saidi
 7,2023-02-01,2373090.0,Nour Brahami
 8,2023-02-01,1827506.0,Khadidja Mebarki
@@ -53,7 +53,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 4,2023-05-01,3411164.0,Walid Diaf
 5,2023-05-01,3683139.0,Ryad Benali
 6,2023-05-01,2810867.0,Karim Saidi
-7,2023-05-01,,Nour Brahami
+7,2023-05-01,2525918.0285714287,Nour Brahami
 8,2023-05-01,2122846.0,Khadidja Mebarki
 9,2023-05-01,1366942.0,Nour Saidi
 10,2023-05-01,1098100.0,Mehdi Boukhalfa
@@ -78,7 +78,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 5,2023-07-01,2566574.0,Ryad Benali
 6,2023-07-01,2497760.0,Karim Saidi
 7,2023-07-01,1916266.0,Nour Brahami
-8,2023-07-01,,Khadidja Mebarki
+8,2023-07-01,2045943.142857143,Khadidja Mebarki
 9,2023-07-01,1318956.0,Nour Saidi
 10,2023-07-01,926789.0,Mehdi Boukhalfa
 11,2023-07-01,773243.0,Amel Oukil
@@ -128,14 +128,14 @@ Store_ID,Month,Target_Revenue,Manager_Name
 7,2023-11-01,2362247.0,Nour Brahami
 8,2023-11-01,2021347.0,Khadidja Mebarki
 9,2023-11-01,1595595.0,Nour Saidi
-10,2023-11-01,,Mehdi Boukhalfa
+10,2023-11-01,1205435.4005757575,Mehdi Boukhalfa
 11,2023-11-01,1073212.0,Amel Oukil
 12,2023-11-01,811367.0,Amel Rahmani
 1,2023-12-01,7323107.0,Billel Rahmani
 2,2023-12-01,9952758.0,Khadidja Talbi
 3,2023-12-01,5342970.0,Ryad Guellil
 4,2023-12-01,4842486.0,Walid Diaf
-5,2023-12-01,,Ryad Benali
+5,2023-12-01,3469147.580645161,Ryad Benali
 6,2023-12-01,4032503.0,Karim Saidi
 7,2023-12-01,3234602.0,Nour Brahami
 8,2023-12-01,2442095.0,Khadidja Mebarki
@@ -147,7 +147,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 2,2024-01-01,7367140.0,Khadidja Talbi
 3,2024-01-01,4680195.0,Ryad Guellil
 4,2024-01-01,3555638.0,Walid Diaf
-5,2024-01-01,,Ryad Benali
+5,2024-01-01,3469147.580645161,Ryad Benali
 6,2024-01-01,3092709.0,Karim Saidi
 7,2024-01-01,2550583.0,Nour Brahami
 8,2024-01-01,2053173.0,Khadidja Mebarki
@@ -216,7 +216,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 11,2024-06-01,876.685,Amel Oukil
 12,2024-06-01,693405.0,Amel Rahmani
 1,2024-07-01,4887237.0,Billel Rahmani
-2,2024-07-01,,Khadidja Talbi
+2,2024-07-01,7592685.44117647,Khadidja Talbi
 3,2024-07-01,3467674.0,Ryad Guellil
 4,2024-07-01,2707091.0,Walid Diaf
 5,2024-07-01,2607308.0,Ryad Benali
@@ -260,7 +260,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 7,2024-10-01,2375124.0,Nour Brahami
 8,2024-10-01,2055243.0,Khadidja Mebarki
 9,2024-10-01,1612296.0,Nour Saidi
-10,2024-10-01,,Mehdi Boukhalfa
+10,2024-10-01,1205435.4005757575,Mehdi Boukhalfa
 11,2024-10-01,1049972.0,Amel Oukil
 12,2024-10-01,734995.0,Amel Rahmani
 1,2024-11-01,6031560.0,Billel Rahmani
@@ -272,7 +272,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 7,2024-11-01,2397742.0,Nour Brahami
 8,2024-11-01,2172674.0,Khadidja Mebarki
 9,2024-11-01,1371020.0,Nour Saidi
-10,2024-11-01,,Mehdi Boukhalfa
+10,2024-11-01,1205435.4005757575,Mehdi Boukhalfa
 11,2024-11-01,1058661.0,Amel Oukil
 12,2024-11-01,833400.0,Amel Rahmani
 1,2024-12-01,7622001.0,Billel Rahmani
@@ -295,13 +295,13 @@ Store_ID,Month,Target_Revenue,Manager_Name
 6,2025-01-01,2811718.0,Karim Saidi
 7,2025-01-01,2311161.0,Nour Brahami
 8,2025-01-01,2007817.0,Khadidja Mebarki
-9,2025-01-01,,Nour Saidi
+9,2025-01-01,1531717.0857142857,Nour Saidi
 10,2025-01-01,1231581.0,Mehdi Boukhalfa
 11,2025-01-01,987187.0,Amel Oukil
 12,2025-01-01,741780.0,Amel Rahmani
 1,2025-02-01,6405086.0,Billel Rahmani
-2,2025-02-01,,Khadidja Talbi
-3,2025-02-01,,Ryad Guellil
+2,2025-02-01,7592685.44117647,Khadidja Talbi
+3,2025-02-01,4563956.264705882,Ryad Guellil
 4,2025-02-01,3613640.0,Walid Diaf
 5,2025-02-01,3240397.0,Ryad Benali
 6,2025-02-01,2869995.0,Karim Saidi
@@ -315,7 +315,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 2,2025-03-01,7671341.0,Khadidja Talbi
 3,2025-03-01,4477350.0,Ryad Guellil
 4,2025-03-01,3259064.0,Walid Diaf
-5,2025-03-01,,Ryad Benali
+5,2025-03-01,3469147.580645161,Ryad Benali
 6,2025-03-01,3289802.0,Karim Saidi
 7,2025-03-01,2511489.0,Nour Brahami
 8,2025-03-01,1943878.0,Khadidja Mebarki
@@ -373,8 +373,8 @@ Store_ID,Month,Target_Revenue,Manager_Name
 12,2025-07-01,621323.0,Amel Rahmani
 1,2025-08-01,6383216.0,Billel Rahmani
 2,2025-08-01,7097772.0,Khadidja Talbi
-3,2025-08-01,,Ryad Guellil
-4,2025-08-01,,Walid Diaf
+3,2025-08-01,4563956.264705882,Ryad Guellil
+4,2025-08-01,3541318.685714286,Walid Diaf
 5,2025-08-01,3217494.0,Ryad Benali
 6,2025-08-01,2965817.0,Karim Saidi
 7,2025-08-01,2474294.0,Nour Brahami
@@ -387,7 +387,7 @@ Store_ID,Month,Target_Revenue,Manager_Name
 2,2025-09-01,8847379.0,Khadidja Talbi
 3,2025-09-01,5741076.0,Ryad Guellil
 4,2025-09-01,4352297.0,Walid Diaf
-5,2025-09-01,,Ryad Benali
+5,2025-09-01,3469147.580645161,Ryad Benali
 6,2025-09-01,4077343.0,Karim Saidi
 7,2025-09-01,2930917.0,Nour Brahami
 8,2025-09-01,2614131.0,Khadidja Mebarki
