@@ -22,22 +22,19 @@ def transform_marketing_expenses() -> None:
     df["Month"] = df["Date"].dt.to_period("M").dt.to_timestamp()
     df["Month"] = pd.to_datetime(df["Month"], errors="coerce")
 
-    # 3) Standardize names
-    df = standarize_names(df, ["Category", "Campaign_Type"])
-
-    # 4) Make numeric
-    df["Marketing_Cost_USD"] = pd.to_numeric(df["Marketing_Cost_USD"], errors="coerce")
-
     # 5) Negatives -> NULL
     df = handle_neg_values(df, ["Marketing_Cost_USD"])
 
-    # 6) Fill NULL with avg of same (Category, Campaign_Type)
-    df["Marketing_Cost_USD"] = df["Marketing_Cost_USD"].fillna(
-        df.groupby(["Category", "Campaign_Type"])["Marketing_Cost_USD"].transform("mean")
-    )
-
     # 7) Convert USD -> DZD and rename
     df = usd_to_dzd(df, "Marketing_Cost_USD")  # creates Marketing_Cost_DZD
+
+    # 3) Standardize names
+    df = standarize_names(df, ["Category", "Campaign_Type"])
+
+    # 6) Fill NULL with avg of same (Category, Campaign_Type)
+    df["Marketing_Cost_DZD"] = df["Marketing_Cost_DZD"].fillna(
+        df.groupby(["Category", "Campaign_Type"])["Marketing_Cost_DZD"].transform("mean")
+    )
 
     # 8) Add monthly average marketing for this Category (Month + Category)
     df["Avg_Monthly_Category_Marketing_Cost"] = df.groupby(
@@ -71,6 +68,8 @@ def transform_cities() -> None:
         on="Region",
         how="left"
     )
+    avg_value = cities["Avg_Region_Shipping_Cost"].mean()
+    cities["Avg_Region_Shipping_Cost"] = cities["Avg_Region_Shipping_Cost"].fillna(avg_value)
 
     cities.to_csv("staging/table_cities.csv", index=False)
 
@@ -254,15 +253,15 @@ def transform_table_stores() -> None:
 
 def transform_sales() -> None:
     sales = pd.read_csv("staging/table_sales.csv")
-    products = pd.read_csv("staging/table_products.csv")      
-    customers = pd.read_csv("staging/table_customers.csv")       
-    marketing = pd.read_csv("staging/marketing_expenses.csv")
+    products = pd.read_csv("staging/table_products.csv")
+    customers = pd.read_csv("staging/table_customers.csv")
+    marketing = pd.read_csv("staging/marketing_expenses.csv", parse_dates=["Month"])
 
     sales = clean_id(sales, "Customer_ID")
     sales = clean_id(sales, "Product_ID")
     sales = clean_date(sales, "Date")
+
     # 1) month of the sale
-    marketing = pd.read_csv("staging/marketing_expenses.csv", parse_dates=["Month"])
     sales["Month"] = pd.to_datetime(sales["Date"]).dt.to_period("M").dt.to_timestamp()
 
     # 2) bring category + unit cost into sales
@@ -281,7 +280,7 @@ def transform_sales() -> None:
     sales["Shipping_Cost"] = sales["Avg_Region_Shipping_Cost"]
 
     # 4) marketing monthly by (Month + Category)
-    monthly_cat_marketing = marketing[["Month", "Category", "Avg_Monthly_Category_Marketing_Cost"]].drop_duplicates()
+    monthly_cat_marketing = marketing[["Month", "Category", "Avg_Monthly_Category_Marketing_Cost"]]
 
     sales = sales.merge(
         monthly_cat_marketing,
@@ -290,9 +289,17 @@ def transform_sales() -> None:
         how="left"
     )
 
-    sales["Marketing_Cost"] = sales["Avg_Monthly_Category_Marketing_Cost"]
+    sales["Marketing_Cost"] = sales["Avg_Monthly_Category_Marketing_Cost"].fillna(0)
 
-    # 5) net profit
+    # count of sales rows in same Month+Category
+    sales["cat_monthly_sales"] = sales.groupby(["Month", "Category_Name"])["Product_ID"].transform("count")
+
+    # avoid division by zero
+    sales["cat_monthly_sales"] = sales["cat_monthly_sales"].replace(0, 1)
+
+    sales["Marketing_Cost"] = sales["Marketing_Cost"] / sales["cat_monthly_sales"]
+
+    # 5) net profit (split marketing fairly)
     sales["Net_Profit"] = (
         sales["Total_Revenue"]
         - (sales["Unit_Cost"] * sales["Quantity"])
@@ -300,14 +307,10 @@ def transform_sales() -> None:
         - sales["Marketing_Cost"]
     )
 
-    sales.drop(
-        columns=[
-            "Month"
-        ],
-        inplace=True
-    )
+    sales.drop(columns=["Month", "Category", "Avg_Monthly_Category_Marketing_Cost"], inplace=True, errors="ignore")
 
     sales.to_csv("staging/table_sales.csv", index=False)
+
 
 
 def review_text_to_score() -> None:

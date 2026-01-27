@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-def extract_local() -> None:
+def extract_locale() -> None:
     input_folder = Path("./data")
     output_folder = Path("./staging")
 

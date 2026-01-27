@@ -1,180 +1,181 @@
 Date,Category,Campaign_Type,Marketing_Cost_DZD,Month,Avg_Monthly_Category_Marketing_Cost
-2023-01-01,Computers,Social Media,,2023-01-01,
-2023-01-01,Smartphones,Social Media,,2023-01-01,
-2023-01-01,Audio,Social Media,,2023-01-01,
-2023-01-01,Cameras,Tv,,2023-01-01,
-2023-01-01,Printers,Tv,,2023-01-01,
-2023-02-01,Computers,Social Media,,2023-02-01,
-2023-02-01,Smartphones,Influencer,,2023-02-01,
-2023-02-01,Audio,Tv,,2023-02-01,
-2023-02-01,Cameras,Social Media,,2023-02-01,
-2023-02-01,Printers,Tv,,2023-02-01,
-2023-03-01,Computers,Social Media,,2023-03-01,
-2023-03-01,Smartphones,Social Media,,2023-03-01,
-2023-03-01,Audio,Influencer,,2023-03-01,
-2023-03-01,Cameras,Social Media,,2023-03-01,
-2023-03-01,Printers,Social Media,,2023-03-01,
-2023-04-01,Computers,Social Media,,2023-04-01,
-2023-04-01,Smartphones,Social Media,,2023-04-01,
-2023-04-01,Audio,Influencer,,2023-04-01,
-2023-04-01,Cameras,Influencer,,2023-04-01,
-2023-04-01,Printers,Influencer,,2023-04-01,
-2023-05-01,Computers,Tv,,2023-05-01,
-2023-05-01,Smartphones,Influencer,,2023-05-01,
-2023-05-01,Audio,Influencer,,2023-05-01,
-2023-05-01,Cameras,Influencer,,2023-05-01,
-2023-05-01,Printers,Tv,,2023-05-01,
-2023-06-01,Computers,Social Media,,2023-06-01,
-2023-06-01,Smartphones,Influencer,,2023-06-01,
-2023-06-01,Audio,Influencer,,2023-06-01,
-2023-06-01,Cameras,Influencer,,2023-06-01,
-2023-06-01,Printers,Tv,,2023-06-01,
-2023-07-01,Computers,Tv,,2023-07-01,
-2023-07-01,Smartphones,Social Media,,2023-07-01,
-2023-07-01,Audio,Tv,,2023-07-01,
-2023-07-01,Cameras,Social Media,,2023-07-01,
-2023-07-01,Printers,Tv,,2023-07-01,
-2023-08-01,Computers,Social Media,,2023-08-01,
-2023-08-01,Smartphones,Social Media,,2023-08-01,
-2023-08-01,Audio,Influencer,,2023-08-01,
-2023-08-01,Cameras,Social Media,,2023-08-01,
-2023-08-01,Printers,Tv,,2023-08-01,
-2023-09-01,Computers,Influencer,,2023-09-01,
-2023-09-01,Smartphones,Tv,,2023-09-01,
-2023-09-01,Audio,Tv,,2023-09-01,
-2023-09-01,Cameras,Social Media,,2023-09-01,
-2023-09-01,Printers,Tv,,2023-09-01,
-2023-10-01,Computers,Social Media,,2023-10-01,
-2023-10-01,Smartphones,Social Media,,2023-10-01,
-2023-10-01,Audio,Tv,,2023-10-01,
-2023-10-01,Cameras,Social Media,,2023-10-01,
-2023-10-01,Printers,Social Media,,2023-10-01,
-2023-11-01,Computers,Tv,,2023-11-01,
-2023-11-01,Smartphones,Influencer,,2023-11-01,
-2023-11-01,Audio,Tv,,2023-11-01,
-2023-11-01,Cameras,Tv,,2023-11-01,
-2023-11-01,Printers,Tv,,2023-11-01,
-2023-12-01,Computers,Social Media,,2023-12-01,
-2023-12-01,Smartphones,Tv,,2023-12-01,
-2023-12-01,Audio,Influencer,,2023-12-01,
-2023-12-01,Cameras,Tv,,2023-12-01,
-2023-12-01,Printers,Tv,,2023-12-01,
-2024-01-01,Computers,Influencer,,2024-01-01,
-,Smartphones,Social Media,,,
-2024-01-01,Audio,Tv,,2024-01-01,
-2024-01-01,Cameras,Social Media,,2024-01-01,
-2024-01-01,Printers,Tv,,2024-01-01,
-2024-02-01,Computers,Social Media,,2024-02-01,
-2024-02-01,Smartphones,Social Media,,2024-02-01,
-2024-02-01,Audio,Social Media,,2024-02-01,
-2024-02-01,Cameras,Tv,,2024-02-01,
-2024-02-01,Printers,Tv,,2024-02-01,
-2024-03-01,Computers,Social Media,,2024-03-01,
-2024-03-01,Smartphones,Influencer,,2024-03-01,
-2024-03-01,Audio,Social Media,,2024-03-01,
-2024-03-01,Cameras,Social Media,,2024-03-01,
-2024-03-01,Printers,Tv,,2024-03-01,
-2024-04-01,Computers,Social Media,,2024-04-01,
-2024-04-01,Smartphones,Influencer,,2024-04-01,
-2024-04-01,Audio,Social Media,,2024-04-01,
-2024-04-01,Cameras,Social Media,,2024-04-01,
-2024-04-01,Printers,Influencer,,2024-04-01,
-2024-05-01,Computers,Social Media,,2024-05-01,
-2024-05-01,Smartphones,Social Media,,2024-05-01,
-,Audio,Social Media,,,
-2024-05-01,Cameras,Tv,,2024-05-01,
-2024-05-01,Printers,Influencer,,2024-05-01,
-2024-06-01,Computers,Influencer,,2024-06-01,
-2024-06-01,Smartphones,Social Media,,2024-06-01,
-2024-06-01,Audio,Social Media,,2024-06-01,
-2024-06-01,Cameras,Tv,,2024-06-01,
-2024-06-01,Printers,Tv,,2024-06-01,
-2024-07-01,Computers,Influencer,,2024-07-01,
-2024-07-01,Smartphones,Social Media,,2024-07-01,
-2024-07-01,Audio,Influencer,,2024-07-01,
-2024-07-01,Cameras,Social Media,,2024-07-01,
-2024-07-01,Printers,Tv,,2024-07-01,
-2024-08-01,Computers,Tv,,2024-08-01,
-2024-08-01,Smartphones,Social Media,,2024-08-01,
-2024-08-01,Audio,Tv,,2024-08-01,
-2024-08-01,Cameras,Influencer,,2024-08-01,
-2024-08-01,Printers,Tv,,2024-08-01,
-2024-09-01,Computers,Social Media,,2024-09-01,
-2024-09-01,Smartphones,Social Media,,2024-09-01,
-2024-09-01,Audio,Influencer,,2024-09-01,
-2024-09-01,Cameras,Influencer,,2024-09-01,
-2024-09-01,Printers,Tv,,2024-09-01,
-2024-10-01,Computers,Social Media,,2024-10-01,
-2024-10-01,Smartphones,Social Media,,2024-10-01,
-2024-10-01,Audio,Tv,,2024-10-01,
-2024-10-01,Cameras,Social Media,,2024-10-01,
-2024-10-01,Printers,Tv,,2024-10-01,
-2024-11-01,Computers,Influencer,,2024-11-01,
-2024-11-01,Smartphones,Influencer,,2024-11-01,
-2024-11-01,Audio,Social Media,,2024-11-01,
-2024-11-01,Cameras,Social Media,,2024-11-01,
-,Printers,Tv,,,
-2024-12-01,Computers,Tv,,2024-12-01,
-2024-12-01,Smartphones,Influencer,,2024-12-01,
-2024-12-01,Audio,Social Media,,2024-12-01,
-2024-12-01,Cameras,Social Media,,2024-12-01,
-2024-12-01,Printers,Tv,,2024-12-01,
-2025-01-01,Computers,Tv,,2025-01-01,
-2025-01-01,Smartphones,Social Media,,2025-01-01,
-2025-01-01,Audio,Tv,,2025-01-01,
-2025-01-01,Cameras,Social Media,,2025-01-01,
-2025-01-01,Printers,Tv,,2025-01-01,
-2025-02-01,Computers,Social Media,,2025-02-01,
-2025-02-01,Smartphones,Influencer,,2025-02-01,
-2025-02-01,Cameras,Influencer,,2025-02-01,
-2025-02-01,Printers,Tv,,2025-02-01,
-2025-03-01,Computers,Tv,,2025-03-01,
-2025-03-01,Smartphones,Social Media,,2025-03-01,
-2025-03-01,Audio,Influencer,,2025-03-01,
-,Cameras,Influencer,,,
-2025-03-01,Printers,Tv,,2025-03-01,
-2025-04-01,Computers,Social Media,,2025-04-01,
-2025-04-01,Smartphones,Social Media,,2025-04-01,
-2025-04-01,Audio,Social Media,,2025-04-01,
-2025-04-01,Cameras,Tv,,2025-04-01,
-2025-04-01,Printers,Tv,,2025-04-01,
-2025-05-01,Computers,Influencer,,2025-05-01,
-2025-05-01,Smartphones,Influencer,,2025-05-01,
-2025-05-01,Audio,Social Media,,2025-05-01,
-2025-05-01,Cameras,Tv,,2025-05-01,
-2025-05-01,Printers,Tv,,2025-05-01,
-2025-06-01,Computers,Social Media,,2025-06-01,
-2025-06-01,Smartphones,Influencer,,2025-06-01,
-2025-06-01,Audio,Social Media,,2025-06-01,
-2025-06-01,Cameras,Tv,,2025-06-01,
-2025-06-01,Printers,Tv,,2025-06-01,
-,Computers,Social Media,,,
-2025-07-01,Smartphones,Influencer,,2025-07-01,
-2025-07-01,Audio,Tv,,2025-07-01,
-2025-07-01,Cameras,Influencer,,2025-07-01,
-2025-07-01,Printers,Tv,,2025-07-01,
-2025-08-01,Computers,Influencer,,2025-08-01,
-2025-08-01,Smartphones,Influencer,,2025-08-01,
-2025-08-01,Audio,Tv,,2025-08-01,
-2025-08-01,Cameras,Tv,,2025-08-01,
-2025-08-01,Printers,Influencer,,2025-08-01,
-2025-09-01,Computers,Tv,,2025-09-01,
-2025-09-01,Smartphones,Tv,,2025-09-01,
-2025-09-01,Audio,Influencer,,2025-09-01,
-2025-09-01,Cameras,Tv,,2025-09-01,
-2025-09-01,Printers,Social Media,,2025-09-01,
-2025-10-01,Computers,Tv,,2025-10-01,
-,Smartphones,Influencer,,,
-2025-10-01,Audio,Social Media,,2025-10-01,
-2025-10-01,Cameras,Tv,,2025-10-01,
-2025-10-01,Printers,Tv,,2025-10-01,
-2025-11-01,Computers,Tv,,2025-11-01,
-2025-11-01,Smartphones,Social Media,,2025-11-01,
-2025-11-01,Audio,Social Media,,2025-11-01,
-2025-11-01,Cameras,Influencer,,2025-11-01,
-2025-11-01,Printers,Tv,,2025-11-01,
-,Computers,Influencer,,,
-2025-12-01,Smartphones,Influencer,,2025-12-01,
-2025-12-01,Audio,Tv,,2025-12-01,
-,Cameras,Social Media,,,
-2025-12-01,Printers,Tv,,2025-12-01,
+2023-01-01,Computers,Social Media,121500.0,2023-01-01,121500.0
+2023-01-01,Smartphones,Social Media,286605.0,2023-01-01,286605.0
+2023-01-01,Audio,Social Media,60615.0,2023-01-01,60615.0
+2023-01-01,Cameras,Tv,76005.0,2023-01-01,76005.0
+2023-01-01,Printers,Tv,268920.0,2023-01-01,268920.0
+2023-02-01,Computers,Social Media,183870.0,2023-02-01,183870.0
+2023-02-01,Smartphones,Influencer,328590.0,2023-02-01,328590.0
+2023-02-01,Audio,Tv,31860.0,2023-02-01,31860.0
+2023-02-01,Cameras,Social Media,78300.0,2023-02-01,78300.0
+2023-02-01,Printers,Tv,195480.0,2023-02-01,195480.0
+2023-03-01,Computers,Social Media,195885.0,2023-03-01,195885.0
+2023-03-01,Smartphones,Social Media,232065.0,2023-03-01,232065.0
+2023-03-01,Audio,Influencer,32670.0,2023-03-01,32670.0
+2023-03-01,Cameras,Social Media,52245.0,2023-03-01,52245.0
+2023-03-01,Printers,Social Media,234360.0,2023-03-01,234360.0
+2023-04-01,Computers,Social Media,161240.625,2023-04-01,161240.625
+2023-04-01,Smartphones,Social Media,379485.0,2023-04-01,379485.0
+2023-04-01,Audio,Influencer,49410.0,2023-04-01,49410.0
+2023-04-01,Cameras,Influencer,54270.0,2023-04-01,54270.0
+2023-04-01,Printers,Influencer,219105.0,2023-04-01,219105.0
+2023-05-01,Computers,Tv,127845.0,2023-05-01,127845.0
+2023-05-01,Smartphones,Influencer,208710.0,2023-05-01,208710.0
+2023-05-01,Audio,Influencer,51840.0,2023-05-01,51840.0
+2023-05-01,Cameras,Influencer,61391.25,2023-05-01,61391.25
+2023-05-01,Printers,Tv,257715.0,2023-05-01,257715.0
+2023-06-01,Computers,Social Media,137835.0,2023-06-01,137835.0
+2023-06-01,Smartphones,Influencer,292410.0,2023-06-01,292410.0
+2023-06-01,Audio,Influencer,43740.0,2023-06-01,43740.0
+2023-06-01,Cameras,Influencer,41985.0,2023-06-01,41985.0
+2023-06-01,Printers,Tv,249075.0,2023-06-01,249075.0
+2023-07-01,Computers,Tv,150795.0,2023-07-01,150795.0
+2023-07-01,Smartphones,Social Media,285027.1875,2023-07-01,285027.1875
+2023-07-01,Audio,Tv,54245.454545454544,2023-07-01,54245.454545454544
+2023-07-01,Cameras,Social Media,73440.0,2023-07-01,73440.0
+2023-07-01,Printers,Tv,235575.0,2023-07-01,235575.0
+2023-08-01,Computers,Social Media,149175.0,2023-08-01,149175.0
+2023-08-01,Smartphones,Social Media,302400.0,2023-08-01,302400.0
+2023-08-01,Audio,Influencer,27405.0,2023-08-01,27405.0
+2023-08-01,Cameras,Social Media,50895.0,2023-08-01,50895.0
+2023-08-01,Printers,Tv,180630.0,2023-08-01,180630.0
+2023-09-01,Computers,Influencer,159840.0,2023-09-01,159840.0
+2023-09-01,Smartphones,Tv,397710.0,2023-09-01,397710.0
+2023-09-01,Audio,Tv,60075.0,2023-09-01,60075.0
+2023-09-01,Cameras,Social Media,48330.0,2023-09-01,48330.0
+2023-09-01,Printers,Tv,177120.0,2023-09-01,177120.0
+2023-10-01,Computers,Social Media,177255.0,2023-10-01,177255.0
+2023-10-01,Smartphones,Social Media,306585.0,2023-10-01,306585.0
+2023-10-01,Audio,Tv,43470.0,2023-10-01,43470.0
+2023-10-01,Cameras,Social Media,73575.0,2023-10-01,73575.0
+2023-10-01,Printers,Social Media,185220.0,2023-10-01,185220.0
+2023-11-01,Computers,Tv,178200.0,2023-11-01,178200.0
+2023-11-01,Smartphones,Influencer,369900.0,2023-11-01,369900.0
+2023-11-01,Audio,Tv,94500.0,2023-11-01,94500.0
+2023-11-01,Cameras,Tv,80325.0,2023-11-01,80325.0
+2023-11-01,Printers,Tv,273375.0,2023-11-01,273375.0
+2023-12-01,Computers,Social Media,180630.0,2023-12-01,180630.0
+2023-12-01,Smartphones,Tv,584955.0,2023-12-01,584955.0
+2023-12-01,Audio,Influencer,84780.0,2023-12-01,84780.0
+2023-12-01,Cameras,Tv,87615.0,2023-12-01,87615.0
+2023-12-01,Printers,Tv,232065.0,2023-12-01,232065.0
+2024-01-01,Computers,Influencer,135675.0,2024-01-01,135675.0
+,Smartphones,Social Media,211005.0,,
+2024-01-01,Audio,Tv,37935.0,2024-01-01,37935.0
+2024-01-01,Cameras,Social Media,68377.5,2024-01-01,68377.5
+2024-01-01,Printers,Tv,256095.0,2024-01-01,256095.0
+2024-02-01,Computers,Social Media,144450.0,2024-02-01,144450.0
+2024-02-01,Smartphones,Social Media,363420.0,2024-02-01,363420.0
+2024-02-01,Audio,Social Media,57105.0,2024-02-01,57105.0
+2024-02-01,Cameras,Tv,44550.0,2024-02-01,44550.0
+2024-02-01,Printers,Tv,253800.0,2024-02-01,253800.0
+2024-03-01,Computers,Social Media,143100.0,2024-03-01,143100.0
+2024-03-01,Smartphones,Influencer,319680.0,2024-03-01,319680.0
+2024-03-01,Audio,Social Media,48465.0,2024-03-01,48465.0
+2024-03-01,Cameras,Social Media,71685.0,2024-03-01,71685.0
+2024-03-01,Printers,Tv,249885.0,2024-03-01,249885.0
+2024-04-01,Computers,Social Media,201825.0,2024-04-01,201825.0
+2024-04-01,Smartphones,Influencer,400140.0,2024-04-01,400140.0
+2024-04-01,Audio,Social Media,32535.0,2024-04-01,32535.0
+2024-04-01,Cameras,Social Media,54945.0,2024-04-01,54945.0
+2024-04-01,Printers,Influencer,141750.0,2024-04-01,141750.0
+2024-05-01,Computers,Social Media,176985.0,2024-05-01,176985.0
+2024-05-01,Smartphones,Social Media,218700.0,2024-05-01,218700.0
+,Audio,Social Media,52920.0,,
+2024-05-01,Cameras,Tv,47925.0,2024-05-01,47925.0
+2024-05-01,Printers,Influencer,159165.0,2024-05-01,159165.0
+2024-06-01,Computers,Influencer,165375.0,2024-06-01,165375.0
+2024-06-01,Smartphones,Social Media,226665.0,2024-06-01,226665.0
+2024-06-01,Audio,Social Media,41985.0,2024-06-01,41985.0
+2024-06-01,Cameras,Tv,53325.0,2024-06-01,53325.0
+2024-06-01,Printers,Tv,188055.0,2024-06-01,188055.0
+2024-07-01,Computers,Influencer,201015.0,2024-07-01,201015.0
+2024-07-01,Smartphones,Social Media,338175.0,2024-07-01,338175.0
+2024-07-01,Audio,Influencer,54810.0,2024-07-01,54810.0
+2024-07-01,Cameras,Social Media,42795.0,2024-07-01,42795.0
+2024-07-01,Printers,Tv,180360.0,2024-07-01,180360.0
+2024-08-01,Computers,Tv,128385.0,2024-08-01,128385.0
+2024-08-01,Smartphones,Social Media,285027.1875,2024-08-01,285027.1875
+2024-08-01,Audio,Tv,57645.0,2024-08-01,57645.0
+2024-08-01,Cameras,Influencer,46575.0,2024-08-01,46575.0
+2024-08-01,Printers,Tv,172935.0,2024-08-01,172935.0
+2024-09-01,Computers,Social Media,122175.0,2024-09-01,122175.0
+2024-09-01,Smartphones,Social Media,289710.0,2024-09-01,289710.0
+2024-09-01,Audio,Influencer,29700.0,2024-09-01,29700.0
+2024-09-01,Cameras,Influencer,77085.0,2024-09-01,77085.0
+2024-09-01,Printers,Tv,269460.0,2024-09-01,269460.0
+2024-10-01,Computers,Social Media,138105.0,2024-10-01,138105.0
+2024-10-01,Smartphones,Social Media,354375.0,2024-10-01,354375.0
+2024-10-01,Audio,Tv,54945.0,2024-10-01,54945.0
+2024-10-01,Cameras,Social Media,54675.0,2024-10-01,54675.0
+2024-10-01,Printers,Tv,172800.0,2024-10-01,172800.0
+2024-11-01,Computers,Influencer,244350.0,2024-11-01,244350.0
+2024-11-01,Smartphones,Influencer,474795.0,2024-11-01,474795.0
+2024-11-01,Audio,Social Media,98820.0,2024-11-01,98820.0
+2024-11-01,Cameras,Social Media,100575.0,2024-11-01,100575.0
+,Printers,Tv,274725.0,,
+2024-12-01,Computers,Tv,216675.0,2024-12-01,216675.0
+2024-12-01,Smartphones,Influencer,464130.0,2024-12-01,464130.0
+2024-12-01,Audio,Social Media,45495.0,2024-12-01,45495.0
+2024-12-01,Cameras,Social Media,69390.0,2024-12-01,69390.0
+2024-12-01,Printers,Tv,320085.0,2024-12-01,320085.0
+2025-01-01,Computers,Tv,149445.0,2025-01-01,149445.0
+2025-01-01,Smartphones,Social Media,208035.0,2025-01-01,208035.0
+2025-01-01,Audio,Tv,52785.0,2025-01-01,52785.0
+2025-01-01,Cameras,Social Media,71415.0,2025-01-01,71415.0
+2025-01-01,Printers,Tv,260685.0,2025-01-01,260685.0
+2025-02-01,Computers,Social Media,150390.0,2025-02-01,150390.0
+2025-02-01,Smartphones,Influencer,404730.0,2025-02-01,404730.0
+,Audio,Social Media,51975.0,,
+2025-02-01,Cameras,Influencer,69255.0,2025-02-01,69255.0
+2025-02-01,Printers,Tv,241785.0,2025-02-01,241785.0
+2025-03-01,Computers,Tv,146475.0,2025-03-01,146475.0
+2025-03-01,Smartphones,Social Media,219915.0,2025-03-01,219915.0
+2025-03-01,Audio,Influencer,40230.0,2025-03-01,40230.0
+,Cameras,Influencer,41715.0,,
+2025-03-01,Printers,Tv,142560.0,2025-03-01,142560.0
+2025-04-01,Computers,Social Media,161240.625,2025-04-01,161240.625
+2025-04-01,Smartphones,Social Media,204930.0,2025-04-01,204930.0
+2025-04-01,Audio,Social Media,51030.0,2025-04-01,51030.0
+2025-04-01,Cameras,Tv,43335.0,2025-04-01,43335.0
+2025-04-01,Printers,Tv,204525.0,2025-04-01,204525.0
+2025-05-01,Computers,Influencer,182867.14285714287,2025-05-01,182867.14285714287
+2025-05-01,Smartphones,Influencer,206280.0,2025-05-01,206280.0
+2025-05-01,Audio,Social Media,62505.0,2025-05-01,62505.0
+2025-05-01,Cameras,Tv,65340.0,2025-05-01,65340.0
+2025-05-01,Printers,Tv,228285.0,2025-05-01,228285.0
+2025-06-01,Computers,Social Media,165240.0,2025-06-01,165240.0
+2025-06-01,Smartphones,Influencer,327105.0,2025-06-01,327105.0
+2025-06-01,Audio,Social Media,27270.0,2025-06-01,27270.0
+2025-06-01,Cameras,Tv,45765.0,2025-06-01,45765.0
+2025-06-01,Printers,Tv,137160.0,2025-06-01,137160.0
+,Computers,Social Media,191430.0,,
+2025-07-01,Smartphones,Influencer,387990.0,2025-07-01,387990.0
+2025-07-01,Audio,Tv,33075.0,2025-07-01,33075.0
+2025-07-01,Cameras,Influencer,44820.0,2025-07-01,44820.0
+2025-07-01,Printers,Tv,150120.0,2025-07-01,150120.0
+2025-08-01,Computers,Influencer,182250.0,2025-08-01,182250.0
+2025-08-01,Smartphones,Influencer,332775.0,2025-08-01,332775.0
+2025-08-01,Audio,Tv,67500.0,2025-08-01,67500.0
+2025-08-01,Cameras,Tv,47925.0,2025-08-01,47925.0
+2025-08-01,Printers,Influencer,173340.0,2025-08-01,173340.0
+2025-09-01,Computers,Tv,132435.0,2025-09-01,132435.0
+2025-09-01,Smartphones,Tv,357345.0,2025-09-01,357345.0
+2025-09-01,Audio,Influencer,65610.0,2025-09-01,65610.0
+2025-09-01,Cameras,Tv,65340.0,2025-09-01,65340.0
+2025-09-01,Printers,Social Media,213570.0,2025-09-01,213570.0
+2025-10-01,Computers,Tv,164295.0,2025-10-01,164295.0
+,Smartphones,Influencer,377595.0,,
+2025-10-01,Audio,Social Media,48600.0,2025-10-01,48600.0
+2025-10-01,Cameras,Tv,48060.0,2025-10-01,48060.0
+2025-10-01,Printers,Tv,225315.0,2025-10-01,225315.0
+2025-11-01,Computers,Tv,250695.0,2025-11-01,250695.0
+2025-11-01,Smartphones,Social Media,418365.0,2025-11-01,418365.0
+2025-11-01,Audio,Social Media,42930.0,2025-11-01,42930.0
+2025-11-01,Cameras,Influencer,115425.0,2025-11-01,115425.0
+2025-11-01,Printers,Tv,203445.0,2025-11-01,203445.0
+,Computers,Influencer,191565.0,,
+2025-12-01,Smartphones,Influencer,434700.0,2025-12-01,434700.0
+2025-12-01,Audio,Tv,62910.0,2025-12-01,62910.0
+,Cameras,Social Media,115020.0,,
+2025-12-01,Printers,Tv,274185.0,2025-12-01,274185.0

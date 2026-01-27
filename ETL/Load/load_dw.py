@@ -73,7 +73,7 @@ def load_dw_data() -> None:
 
     # 6) load fact
     fact_cols = ["Trans_ID","DateKey","Store_ID","Product_ID","Customer_ID",
-                 "Quantity","Total_Revenue","Net_Profit"]
+                 "Quantity","Total_Revenue","Net_Profit", "Marketing_Cost"]
     fact = sales[[c for c in fact_cols if c in sales.columns]].copy()
     fact = fact.dropna(subset=["Trans_ID","DateKey","Store_ID","Product_ID","Customer_ID"])
     fact["DateKey"] = fact["DateKey"].astype(int)

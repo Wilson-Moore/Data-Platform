@@ -67,6 +67,7 @@ def create_dw_schema() -> None:
         Quantity      INTEGER,
         Total_Revenue REAL,
         Net_Profit    REAL,
+        Marketing_Cost  REAL,
 
         FOREIGN KEY (DateKey)    REFERENCES Dim_Date(DateKey),
         FOREIGN KEY (Store_ID)   REFERENCES Dim_Store(Store_ID),

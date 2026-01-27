@@ -46,7 +46,6 @@ def clean_date(df: pd.DataFrame, column_name: str) -> pd.DataFrame:
 def usd_to_dzd(df: pd.DataFrame, column_name: str) -> pd.DataFrame:
     df = df.copy()
 
-    df[column_name] = pd.to_numeric(df[column_name], errors="coerce")
     df[column_name] = df[column_name] * USD_TO_DZD
 
     new_column_name = column_name.replace("USD", "DZD").replace("usd", "dzd")
@@ -73,19 +72,24 @@ def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def normalize_number(df: pd.DataFrame, column_names=[]) -> pd.DataFrame:
-
+def normalize_number(df: pd.DataFrame, column_names) -> pd.DataFrame:
     df = df.copy()
 
-    for column in column_names:
-        # Convert to string first
-        df[column] = df[column].astype(str)
+    for col in column_names:
+        s = df[col].astype("string")  # better than astype(str), preserves <NA>
 
-        # Remove spaces (thousand separators)
-        df[column] = df[column].str.replace([" ", ","], "", regex=False)
+        # remove currency text/symbols if they exist (optional)
+        s = s.str.replace("USD", "", regex=False).str.replace("$", "", regex=False).str.strip()
 
-        # Convert to numeric
-        df[column] = pd.to_numeric(df[column], errors="coerce")
+        # remove spaces (thousand sep)
+        s = s.str.replace(" ", "", regex=False)
+
+        # if decimal comma is used, convert it to dot
+        # example: "1234,56" -> "1234.56"
+        s = s.str.replace(",", ".", regex=False)
+
+        df[col] = pd.to_numeric(s, errors="coerce")
 
     return df
+
 
