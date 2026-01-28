@@ -36,4 +36,4 @@ def extract_scraper(base_url: str) -> None:
         "Unit_Price": all_prices
     })
     
-    dataframe.to_csv("staging/web/competitor.csv",index=False)
+    dataframe.to_csv("staging/competitor.csv",index=False)

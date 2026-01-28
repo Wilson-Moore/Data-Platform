@@ -4,8 +4,10 @@ import pytesseract
 import pandas as pd
 import re
 import os
-
-def transform_ocr(path: str) -> None:
+from pathlib import Path
+def extract_ocr() -> None:
+    BASE_DIR = Path(__file__).resolve().parents[2]  # project root
+    path = BASE_DIR / "data" / "legacy_invoices"
     orders_data=[]
     files=[file for file in os.listdir(path) if file.lower().startswith("order")]
     files.sort()
@@ -23,7 +25,7 @@ def transform_ocr(path: str) -> None:
         orders_data.append(data)
     
     dataframe=pd.DataFrame(orders_data)
-    dataframe.to_csv(f"staging/images/invoices.csv",index=False)
+    dataframe.to_csv(f"staging/invoices.csv",index=False)
 
 def parse_text(text: str) -> Dict:
     data={}

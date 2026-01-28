@@ -10,7 +10,7 @@ def extract_erp(host: str,database: str,user: str,password: str) -> None:
         for column in dataframe.columns:
             for table in dataframe[column]:
                 tmp=pd.read_sql(f"SELECT * FROM {table}",connection)
-                tmp.to_csv(f"staging/database/{table}.csv",index=False)
+                tmp.to_csv(f"staging/{table}.csv",index=False)
         
         connection.close()
     except mysql.connector.Error as e:
